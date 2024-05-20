@@ -15,6 +15,7 @@ Luego de ejecutarlo varias veces, pude notar que la ejecucion se realiza tomando
 El tiempo de ejecucion varia del valor que se le indique al sumador y al restador.
 EL valor final siempre es distinto en cada ejecucion, aunque siempre finaliza en 5 o en 0.
 
+4-
     Sin Race:
 Al ejecutar el codigo, ambos hilos suman o restan el acumulador en cantidades iguales.
 
