@@ -1,0 +1,21 @@
+2- Hilos:
+    Sin hilos:
+El tiempo de ejecucion es impredecible debido a que cada ejecucion del codigo es diferente. tarea_1() es la que mas tarda en ejecutarse y con diferentes tiempos de ejecucion, por lo que el tiempo va a variar en cada maquina.
+
+    Con hilos:
+Luego de ejecutarlo varias veces, pude notar que la ejecucion se realiza tomando la tarea con el tiempo de ejecucion mas rapido y finalizando con el mas lento. El tiempo de ejecucion mejoro en aproximadamente 50% con respecto al codigo sin hilos.
+
+ Las tareas se ejecuta en este orden: tarea2, tarea3 y tarea1.
+
+ Un ejemplo donde el multi-hilado podria mejorar el tiempo de respuesta es en un sistema de analisis/procesamiento de datos.
+
+
+ 3- Condición de carrera (Race Condition)
+    Con Race:
+El tiempo de ejecucion varia del valor que se le indique al sumador y al restador.
+EL valor final siempre es distinto en cada ejecucion, aunque siempre finaliza en 5 o en 0.
+
+    Sin Race:
+Al ejecutar el codigo, ambos hilos suman o restan el acumulador en cantidades iguales.
+
+EL tiempo de ejecucion es siempre el mismo.
